@@ -1,0 +1,19 @@
+program teste
+
+integer a = 1;
+string b = "oi";
+integer c = 5;
+
+a = 3;
+c = 2 - 3 + a / 4 * c + 2**c;
+
+if (a==5 and c==4) then
+     a = 4;
+  else
+  	 if (c == 5) then
+  	 	a = 0;
+  	 end   
+end
+
+
+end

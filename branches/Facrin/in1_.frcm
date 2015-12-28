@@ -1,0 +1,23 @@
+program teste
+
+
+integer a = 1;
+string c = "aew";
+integer b = 2;
+
+subroutine chamada1
+    write "conseguimos!!!!";
+end
+
+write "Digite o valor de a: ";
+read a;
+while a > 4 or b > 4
+   if (a==5 and b==4) then
+     write "compiladores ta acabando!!!!";
+     write b;
+     write 10;
+   end
+   a = a - b + 1 / 4 * 5 + 2**a;
+end
+chamada1; 
+end
